@@ -4,6 +4,7 @@
   <el-dialog v-model="outerVisible" title="Outer Dialog">
     <template #default>
       <el-dialog
+        fullscreen="true"
         v-model="innerVisible"
         width="30%"
         title="Inner Dialog"
